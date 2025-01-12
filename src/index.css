@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'anzo';
+    src: url(./assets/anzo.woff2);
+}
+@font-face {
+    font-family: 'anzo2';
+    src: url(./assets/anzo2.woff2);
+}
+@font-face {
+    font-family:'anzo3';
+    src: url(./assets/anzo3.woff2);
+}
+@font-face {
+    font-family: 'anzo4';
+    src: url(./assets/anzo4.woff2);
+}
+@font-face {
+    font-family: 'anzo5';
+    src: url(./assets/anzo5.woff2);
+}
+@font-face {
+    font-family: 'alagfont';
+    src: url(./assets/madefor-text.var.original.woff2);
+}
+html, body{
+    overflow-x: hidden;
+}
+#page1-in{
+    perspective: 1000px;
+    position: relative;
+
+}
+#tiltDiv{
+    /* background: red; */
+    width: fit-content;
+
+}
+#section2{
+    perspective: 1000px;
+    position: relative;
+}
+#h3{
+    transform-origin: 100% 7cqmax;
+}
+@keyframes slideAcross {
+    0% {
+      transform: translateX(0%);
+    }
+    
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+
+      
